@@ -29,3 +29,8 @@ console.log(hello world);
 
 console.log (typeof);
 
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(Primitive) it gives as copy , heap (Non primitive)it chnage through originaL VALUE
+ 
