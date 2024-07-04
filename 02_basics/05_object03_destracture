@@ -1,0 +1,11 @@
+const course = {
+    coursename: "code with mukim",
+    price: "999",
+    courseInstructor: "mukim"
+    
+}
+
+//const{courseInstructor} = course
+const {courseInstructor: instructor} = course // this is object destracture
+
+console.log(courseInstructor);
