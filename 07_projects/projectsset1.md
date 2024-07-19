@@ -1,6 +1,5 @@
 # Project related to DOM
-# project link 
-[Click here](https://stackblitz.com/edit/dom-project-chaiaurcode?file=1-colorChanger%2Fchaiaurcode.js)
+# project link [Click here](https://stackblitz.com/edit/dom-project-chaiaurcode?file=1-colorChanger%2Fchaiaurcode.js)
 
 
 
@@ -9,7 +8,7 @@
 
 ## project 1 [Color Changer Button]
 
-`````Javascript
+```Javascript
 console.log("Mukim")
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector("body")
@@ -35,8 +34,10 @@ buttons.forEach(function (button){
   });
 });
 
+```
+### project  2 solution
 
-project  2 solution
+```Javascript
 
 const form = document.querySelector('form');
 
@@ -59,3 +60,17 @@ form.addEventListener('submit', function(e){
    results.innerHTML = `<span>${bmi}</span>`;
   }
 });
+
+```
+## project 3 solution
+
+```javascript
+//const clock = document.getElementById
+const clock = document.querySelector('#clock');
+
+setInterval(function (){
+  let date = new Date();
+  // console.log(data.toLocalTimeString());
+  clock.innerHTML = date.toLocaleTimeString();
+
+}, 1000);
