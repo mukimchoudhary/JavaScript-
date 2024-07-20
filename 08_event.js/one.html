@@ -32,6 +32,12 @@
         e.stopImmediatePropagation // used to stop
     }, true) // true is capturing mode goes top to bottom
 
+document.querySelector('#images').addEventListener
+('click', function(e){
+    console.log(e.target.parentNOde);
+    let removeIt = e.target.parentNOde
+    removeIt.remove()
+})
     
    </script>  
 </body>
